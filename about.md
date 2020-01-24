@@ -26,14 +26,21 @@ titles:
 key: page-about
 ---
 
-I'm Sho Arora, a Machine Learning Engineer and Researcher from Hawaii/Japan
-based in Silicon Valley.
+<div class="grid">
+  <div class="cell cell--8">6
+    I'm Sho Arora, a Machine Learning Engineer and Researcher from Hawaii/Japan
+    based in Silicon Valley.
 
-![Me](/assets/avatar.png =250x250){:.circle}
 
-I received my Computer Science degrees from Stanford University
-(M.S. Artificial Intelligence, B.S. Human-Computer Interaction), where I did
-research at the intersection of these fields (Stanford Vision Lab, Stanford HCI Lab).
+    I received my Computer Science degrees from Stanford University
+    (M.S. Artificial Intelligence, B.S. Human-Computer Interaction), where I did
+    research at the intersection of these fields (Stanford Vision Lab, Stanford HCI Lab).
 
-I'm currently at [Mercari US](https://www.mercari.com/) working on machine learning
-problems in Natural Language Processing and Computer Vision.
+    I'm currently at [Mercari US](https://www.mercari.com/) working on machine learning
+    problems in Natural Language Processing and Computer Vision.
+  </div>
+  <div class="cell cell--4">4
+    <!-- ![Me](/assets/avatar.png =250x250){:.circle} -->
+    <img class="image image--lg circle" src="/assets/avatar.png"/>
+  </div>
+</div>
