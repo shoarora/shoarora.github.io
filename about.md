@@ -39,7 +39,7 @@ key: page-about
 
     <br>
 
-    I'm currently at <a href="https://www.mercari.com/">Mercari US<a/> working on machine learning
+    I'm currently at <a href="https://www.mercari.com/">Mercari US</a> working on machine learning
     problems in Natural Language Processing and Computer Vision.
   </div>
   <div class="cell cell--4">
