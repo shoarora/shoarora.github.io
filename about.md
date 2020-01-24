@@ -29,7 +29,7 @@ key: page-about
 I'm Sho Arora, a Machine Learning Engineer and Researcher from Hawaii/Japan
 based in Silicon Valley.
 
-![Image](/assets/avatar.png){:.circle}
+![Me](/assets/avatar.png =250x250){:.circle}
 
 I received my Computer Science degrees from Stanford University
 (M.S. Artificial Intelligence, B.S. Human-Computer Interaction), where I did
