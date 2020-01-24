@@ -37,7 +37,7 @@ author:
   type      : person # "person" (default), "organization"
   name      : Sho Arora
   url       : https://shoarora.github.io
-  avatar    : # path or url of avatar image (square)
+  avatar    : /assets/avatar.png # path or url of avatar image (square)
   bio       : ML Engineer in the Bay Area.  Mercari US, Stanford AI, HCI.
   email     : shoarora@cs.stanford.edu
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
