@@ -1,6 +1,7 @@
 ---
-title: Using a callable object for dynamic pytorch collate_fn
-tags: TeXt
+title: Different levels of collate_fn
+tags:
+ - pytorch
 ---
 
 
@@ -18,7 +19,7 @@ or Visual Question Answering
 img, question_ids, answer_ids, question_mask, answer_mask = batch
 ```
 
-## the default collate_fn
+## Default collate_fn
 
 The default `collate_fn` of pytorch will just perform a `torch.stack()`
 on each tensor it receives.
@@ -37,7 +38,7 @@ If you have guarantees that every data point will return the same size
 tensors from your `encode` function, then a setup like this can just use the
 default `collate_fn`.
 
-## creating new variables in collate_fn
+## New variables in collate_fn
 Maybe you don't have the guarantee of same tensor size mentioned above.
 You may need to pad all your inputs so that you can stack them into a batch.
 
@@ -62,7 +63,7 @@ def custom_collate(examples):
   return inputs, special_tokens_masks
 ```
 
-## a dynamic collate_fn
+## Dynamic collate_fn
 Perhaps due to your encoding/tokenization scheme, you need to override the
 default `padding_value` of `pad_sequence()`.
 
@@ -109,7 +110,7 @@ collater = Collater(padding_value=tokenizer.pad_token_id)
 DataLoader = DataLoader(bert_dataset, collate_fn=collater)
 ```
 
-## conclusion
+## Conclusion
 I had a lot of trouble debugging this the first time.  My error looked like:
 
 ```
