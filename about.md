@@ -40,13 +40,15 @@ key: page-about
     <br><br>
 
     I'm currently at <a href="https://www.mercari.com/">Mercari US</a> working on machine learning
-    problems in Natural Language Processing and Computer Vision.
+    problems in Natural Language Processing and Computer Vision (multimodal/multitask learning, representation learning, search, etc.).
 
     <br><br>
 
     <!-- I also like to play and produce music.  I played in the <a href="">Stanford Band</a>,
     and formed a couple other bands (<a href="">The Brass Acid Collective (BAC)</a>,
     <a href="">Clusterfunk</a>).  I recorded and produced all of BAC's stuff, which was cool. -->
+
+    <!-- Research interests -->
 
     <!-- Some open source stuff I'm working on. -->
 
